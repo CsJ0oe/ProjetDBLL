@@ -16,10 +16,13 @@ public class JobUpdate extends HttpServlet {
         String id = request.getParameter("id");
         String name = request.getParameter("name");
         String location = request.getParameter("location");
+        String img = request.getParameter("img");
+        String time = request.getParameter("time");
+        String price = request.getParameter("price");
         if (id != null && !id.isEmpty() && id.matches("[0-9]+")) {
             Job job = new Job();
             if (job.read(Integer.parseInt(id))) {
-                if (job.update(name, location)) {
+                if (job.update(name, location, img, time, price)) {
                     response.getWriter().write(JsonStatus.success(job.toString()));
                 } else {
                     response.getWriter().write(JsonStatus.error("SQL ERROR"));

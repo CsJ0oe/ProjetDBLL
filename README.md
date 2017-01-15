@@ -29,10 +29,10 @@ Package file (.war) is at : ```dist/ProjetDBLL.war```
 - [X] Push to GitHub
 
 ### JEE API :
-- Intialazing DB [/install](http://localhost:8080/ProjetDBLL/install)
+- initializing DB [/install](http://localhost:8080/ProjetDBLL/install)
 - Jobs List [/job/list](http://localhost:8080/ProjetDBLL/job/list)
-- Add Job [/job/create?id=1&name=name&location=location](http://localhost:8080/ProjetDBLL/job/create?id=1&name=name&location=location)
-- Update Job [/job/update?id=1&name=new_name&location=new_location](http://localhost:8080/ProjetDBLL/job/update?id=1&name=new_name&location=new_location)
+- Add Job [/job/create?id=1&name=name&location=location&img=img.jpg&time=time&price=100dt](http://localhost:8080/ProjetDBLL/job/create?id=1&name=name&location=location&img=img.jpg&time=time&price=100dt)
+- Update Job [/job/update?id=1&name=new_name&location=new_location&img=img.jpg&time=time&price=100dt](http://localhost:8080/ProjetDBLL/job/update?id=1&name=new_name&location=new_location&img=img.jpg&time=time&price=100dt)
 - Read Job [/job/read?id=1](http://localhost:8080/ProjetDBLL/job/read?id=1)
 - Delete Job [/job/delete?id=1](http://localhost:8080/ProjetDBLL/job/delete?id=1)
 NB: .template is just an uncompleted .html file

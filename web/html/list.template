@@ -1,13 +1,26 @@
 <!-- List start -->
 <div class="container">
-  <table border="2">
-    <tr>
-      <td>Name</td>
-      <td>Location</td>
-    </tr>
+  <table>
     <tr ng-repeat="job in main">
-      <td ng-bind="job.name"></td>
-      <td ng-bind="job.location"></td>
+      <td>
+      		<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+              <div class="hovereffect">
+                  <img class="img-responsive" src="images/{{job.img}}" alt="" />
+                  <div class="overlay">
+                  	<h2>Job Name</h2>
+                  	<a class="info" href="#">more info</a>
+                  </div>
+              </div>
+            </div>
+      </td>
+      <td>
+      	<h3>{{job.name}}</h3>
+          <ul class="jobcarec">
+            <li>Time: {{job.time}}</li>
+            <li>Payement: {{job.price}}</li>
+            <li>Place: {{job.location}}</li>
+          </ul>
+      </td>
     </tr>
   </table>
 <div>
