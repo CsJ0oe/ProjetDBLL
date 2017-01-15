@@ -1,11 +1,15 @@
 # ProjetDBLL
 
+this is a simple school project to learn how to use opensource frameworks.
+
+the idea is to create a site to help find part-time jobs for students.
+
 we are using in-memory database (H2) so first you need to start with : 
 	[http://localhost:8080/install](http://localhost:8080/install)
 
 Package file (.war) is at : ```dist/ProjetDBLL.war```
 
-## what we used :
+## What we used :
 - Tomcat 8
 - JEE Servlet
 - AngularJS 1
@@ -32,12 +36,12 @@ Package file (.war) is at : ```dist/ProjetDBLL.war```
 - Delete Job [/job/delete?id=1](http://localhost:8080/ProjetDBLL/job/delete?id=1)
 NB: .template is just an uncompleted .html file
 
-### AngularJD Routing :
+### AngularJS Routing :
 - [/](http://localhost:8080/ProjetDBLL/#!/) 		--> main.template 		// Main Page
 - [/list](http://localhost:8080/ProjetDBLL/#!/list) 	--> list.template 		// Jobs List Page
 - [/about](http://localhost:8080/ProjetDBLL/#!/about) 	--> about.template 		// About Page
 - [/contact](http://localhost:8080/ProjetDBLL/#!/contact) 	--> contact.template 	// Contact Page
 
-## our team :
+## Our team :
 - Aya Taieb (3SIL2)
 - Tarek Lammouchi (3SIL2)
