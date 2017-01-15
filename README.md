@@ -10,6 +10,7 @@ we are using in-memory database (H2) so first you need to start with :
 Package file (.war) is at : ```dist/ProjetDBLL.war```
 
 ## What we used :
+- NetBeans
 - Tomcat 8
 - JEE Servlet
 - AngularJS 1
